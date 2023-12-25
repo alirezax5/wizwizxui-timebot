@@ -83,6 +83,13 @@ do
 			sudo rm -r /var/www/html/wizwizxui-timebot/install
 			rm /var/www/html/wizwizxui-timebot/createDB.php
 			rm /var/www/html/wizwizxui-timebot/updateShareConfig.php
+			rm /var/www/html/wizwizxui-timebot/README.md
+			rm /var/www/html/wizwizxui-timebot/README-fa.md
+			rm /var/www/html/wizwizxui-timebot/LICENSE
+			rm /var/www/html/wizwizxui-timebot/update.sh
+			rm /var/www/html/wizwizxui-timebot/wizwiz.sh
+  			rm /var/www/html/wizwizxui-timebot/tempCookie.txt
+  			rm /var/www/html/wizwizxui-timebot/settings/messagewizwiz.json
 			clear
 			
 			echo -e "\n\e[92mThe script was successfully updated! \033[0m\n"
@@ -127,7 +134,7 @@ do
 			 destination_dir=$(find /var/www/html -type d -name "*wizpanel*" | head -n 1)
 
 			 cd /var/www/html/
-			 wget -O wizwizpanel.zip https://github.com/wizwizdev/wizwizxui-timebot/releases/download/9.1.1/wizwizpanel.zip
+			 wget -O wizwizpanel.zip https://github.com/wizwizdev/wizwizxui-timebot/releases/download/9.1.2/wizwizpanel.zip
 
 			 file_to_transfer="/var/www/html/wizwizpanel.zip"
 			 destination_dir=$(find /var/www/html -type d -name "*wizpanel*" | head -n 1)
